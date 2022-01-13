@@ -1,0 +1,11 @@
+rule hitrule   {
+	meta:		
+		author="n0_ware"
+		description="Sample rule for testing"
+		created="1/8/2022 00:00"
+	strings:
+		$a="Hello"
+		$b="worlds"
+	condition:
+		$a and $b
+}	

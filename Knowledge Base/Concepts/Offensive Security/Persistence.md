@@ -1,0 +1,2 @@
+# Persistence
+The goal of an attacker after they have gained access to an unauthorized system. This refers to deploying mechanisms to maintain access to the system (environment) even if t heir current access is blocked, removed,  or otherwise rendered inaccessible. 

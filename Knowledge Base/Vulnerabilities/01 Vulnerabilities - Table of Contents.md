@@ -1,0 +1,13 @@
+# Vulnerabilities - Glossary
+- [Cookie Manipulation](Cookie%20Manipulation.md)
+- [Cross Site Scripting (XSS)](Cross-Site%20Scripting%20(XSS).md)
+- [Cryptographic Failures](Cryptographic%20Failures.md) **Empty**
+- [Injection](Injection.md)
+- [Insecure Direct Object Reference (IDOR)](Insecure%20Direct%20Object%20Reference%20(IDOR).md)
+- [Insecure S3 Buckets](Insecure%20S3%20Buckets.md)
+- [Local File Inclusion (LFI)](Local%20File%20Inclusion%20(LFI).md)
+- [Log Poisoning](Log%20Poisoning.md)
+- [Path Traversal](Path%20Traversal.md)
+- [Privilege Escalation (privsec)](Privilege%20Escalation%20(privsec).md)
+- [Remote Code Execution (RCE)](Remote%20Code%20Execution.md) **Empty**
+- [Session Hijacking](Session%20Hijacking.md) **Empty**
