@@ -5,5 +5,15 @@
 <body>
 <p>In the meantime, please visit the home of my repository at <a href="https://github.com/n0-ware/book-of-n0ware">Book of n0ware</a> on GitHub</p>
 <p>Thanks for visiting!</p>
+<script type="module">
+import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+</script>
+<script>
+await octokit.request('GET /repos/n0-ware/course-notes/contents/Tools%2C%20Binaries%2C%20and%20Programs/CLI%20Utilities/Fundamental%20Linux/sed.md', {
+  owner: 'octocat',
+  repo: 'hello-world',
+  path: 'path'
+})
+</script>
 </body>
 </html>
