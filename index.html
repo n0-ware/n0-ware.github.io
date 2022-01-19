@@ -22,6 +22,7 @@ await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
   path: 'path'
 })
 </script>
+<script>
 function requestUserRepos(username){
     
     // Create new XMLHttpRequest object
@@ -53,6 +54,7 @@ function requestUserRepos(username){
 
 // Call function passing in 'facebook' as GitHub username
 requestUserRepos('n0-ware');
+</script>
 </body>
 </html>
 
