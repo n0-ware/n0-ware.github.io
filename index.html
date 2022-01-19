@@ -9,7 +9,14 @@
 import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
 </script>
 <script>
-await octokit.request('GET /repos/n0-ware/course-notes/contents/Tools%2C%20Binaries%2C%20and%20Programs/CLI%20Utilities/Fundamental%20Linux/sed.md', {
+await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+  owner: 'n0-ware',
+  repo: 'course-notes',
+  path: '/Tools%2C%20Binaries%2C%20and%20Programs/CLI%20Utilities/Fundamental%20Linux/sed.md'
+})
+</script>
+<script>
+await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
   owner: 'octocat',
   repo: 'hello-world',
   path: 'path'
